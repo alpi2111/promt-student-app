@@ -12,6 +12,7 @@ import 'src/pages/login_page.dart';
 void main() async {
   final prefs = new PreferenciasUsuario();
   await prefs.initPrefs();
+  print(prefs.tokenFcm);
   //await initCon();
   /*final con = new Con();
   con.initCon();*/
