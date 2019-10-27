@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "599395505163",
+    "firebase_url": "https://promt-student-app.firebaseio.com",
+    "project_id": "promt-student-app",
+    "storage_bucket": "promt-student-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:599395505163:android:43750bc672924d7715230e",
+        "android_client_info": {
+          "package_name": "com.example.promt_estudent_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "599395505163-a7pis56808sqhcfsv0rkdp5ke857m982.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.promt_estudent_app",
+            "certificate_hash": "f987f4de7ffc3f774be2d061499b11764d087deb"
+          }
+        },
+        {
+          "client_id": "599395505163-rl9v30vokuksd9pvudumr68s80dc678j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA66pY2McTKQyzuMJDoGyeEVfRS_olXz0A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "599395505163-rl9v30vokuksd9pvudumr68s80dc678j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -46,7 +46,7 @@ class _LoginPageState extends State<LoginPage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
-              //_crearLogo(),
+              _crearLogo(),
               _crearUsuario(),
               SizedBox(height: 15.0),
               _crearPass(),
@@ -147,7 +147,7 @@ class _LoginPageState extends State<LoginPage> {
 
   Widget _crearLogo() {
     final _style = TextStyle(
-      fontSize: 90.0,
+      fontSize: 50.0,
       color: Colors.white,
     );
     return Column(
@@ -156,27 +156,33 @@ class _LoginPageState extends State<LoginPage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'Z',
-              style: TextStyle(fontSize: 100.0, color: Colors.white),
+              'P',
+              style: TextStyle(fontSize: 50.0, color: Colors.white),
             ),
             Text(
-              'E',
+              'R',
               style: _style,
             ),
             Icon(
-              Icons.settings,
-              size: 90.0,
+              Icons.location_on,
+              size: 50.0,
               color: Colors.white,
             ),
             Text(
-              'S',
+              'M',
+              style: _style,
+            ),Text(
+              'P',
+              style: _style,
+            ),Text(
+              'T',
               style: _style,
             ),
           ],
         ),
         SizedBox(height: 10.0),
         Text(
-          'Control de herramientas'.toUpperCase(),
+          'Control de entrada y salida'.toUpperCase(),
           style: TextStyle(fontSize: 17.0, color: Colors.white),
         ),
       ],

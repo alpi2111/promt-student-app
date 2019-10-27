@@ -27,6 +27,7 @@ dependencies:
   location:
   curved_navigation_bar: ^0.3.1
   shared_preferences:
+  firebase_messaging:
 
 dev_dependencies:
   flutter_test:
