@@ -32,7 +32,11 @@ class HereProvider {
   }
 
   Future<List<String>> pos() async {
+<<<<<<< HEAD
     
+=======
+    /*
+>>>>>>> 55b52b6a1759b8678992b3eac5a7f7b70fde27a5
     final url =
         "https://pos.api.here.com/positioning/v1/locate?app_id=WojTB51jfVcCgxLzrT1C&app_code=k7OnAi_0iaqMCszEllhstg";
 
