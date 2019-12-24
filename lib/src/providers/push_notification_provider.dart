@@ -21,9 +21,9 @@ class PushNotificationProvider {
          print("onMessage: $message");
          //_showItemDialog(message);
        },
-       onBackgroundMessage: (Map<String, dynamic> message) async {
+       /*onBackgroundMessage: (Map<String, dynamic> message) async {
          print("onBackdroundMessage: $message");
-       },
+       },*/
        onLaunch: (Map<String, dynamic> message) async {
          print("onLaunch: $message");
          //_navigateToItemDetail(message);
